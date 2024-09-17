@@ -1,6 +1,3 @@
-* {
-    border: 1px solid red;
-}
 
 html {
     font-family: 'Roboto', sans-serif;
@@ -90,6 +87,7 @@ a {
 .subtext-first-section {
     color: #E5E7EB;
     font-size: 18px;
+    padding: 12px 0;
 }
 
 .button-first-section {
@@ -116,8 +114,9 @@ a {
     background-color: white;
     display: flex;
     flex-direction: column;
+    height: 300px;
 
-    height: 280px;
+    padding-bottom: 30px;
 }
 
 .second-section-text-div
@@ -125,7 +124,7 @@ a {
     font-size: 36px;
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding: 30px;
     font-weight: bold;
 }
 
@@ -133,7 +132,7 @@ a {
     display: flex;
     flex: 1;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
     padding-top: 10px;
 
 }
@@ -141,7 +140,7 @@ a {
 .second-section-button-text-div {
     display: flex;
     flex-direction: column;
-    width: 100px;
+    width: 130px;
 }
 
 .second-section-button-div {
@@ -151,8 +150,8 @@ a {
 }
 
 .second-section-button {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     border: 2px solid #3882F6;
     border-radius: 12px;
 }
@@ -167,7 +166,7 @@ a {
 /* THIRD SECTION + elements */
 .third-section {
     background-color: #E5E7EB;
-    height: 210px;
+    height: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,10 +183,10 @@ a {
 }
 
 .quote {
-    font-size: 36px;
+    font-size: 24px;
     color: #1F2937;
-    flex: 1;
     font-style: italic;
+    padding-bottom: 10px;
 }
 
 .author {
@@ -203,7 +202,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    height: 180px;
 }
 
 .action-call-div {
@@ -227,15 +226,14 @@ a {
     display: flex;
     align-items: end;
     font-weight: bold;
-    padding-left: 50px;
+    padding-left: 15%;
     
 }
 
 .call-to-action-text {
     display: flex;
-
     font-size: 11px;
-    padding-left: 50px;
+    padding-left: 15%;
 }
 
 .button-div {
